@@ -183,7 +183,7 @@ class DocumentProcessor:
                         for idx, chunk in enumerate(chunks):
                             # For the first chunk of each lesson, add lesson context
                             if idx == 0:
-                                chunk_with_context = f"Lesson {current_lesson} content: {chunk}"
+                                chunk_with_context = f"Course {course_title} Lesson {current_lesson} content: {chunk}"
                             else:
                                 chunk_with_context = chunk
                             
